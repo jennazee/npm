@@ -427,6 +427,10 @@ Git urls can be of the form:
 The `commit-ish` can be any tag, sha, or branch which can be supplied as
 an argument to `git checkout`.  The default is `master`.
 
+For Github Enterprise repositories, use the following url form 
+    git+https://<github_token>:x-oauth-basic@github.com/user/project.git#commit-ish
+    
+
 ## GitHub URLs
 
 As of version 1.1.65, you can refer to GitHub urls as just "foo":
